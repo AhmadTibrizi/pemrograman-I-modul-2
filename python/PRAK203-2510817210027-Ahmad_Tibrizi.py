@@ -4,6 +4,5 @@ i = float(input("Masukkan i: "))
 j = float(input("Masukkan j: "))
 x = float(input("Masukkan x: "))
 y = float(input("Masukkan y: "))
-
 hasil = ((a - b) * (i / j)) - x - y
-print(f"Hasil = {hasil:.3f}")
+print(f"{hasil:.3f}")

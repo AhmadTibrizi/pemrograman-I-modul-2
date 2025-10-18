@@ -17,6 +17,6 @@ int main() {
     scanf("%f", &y);
 
     hasil = ((a - b) * (i / j)) - x - y;
-    printf("Hasil = %.3f\n", hasil);
+    printf("%.3f\n", hasil);
     return 0;
 }

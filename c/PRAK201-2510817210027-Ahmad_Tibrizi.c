@@ -2,9 +2,8 @@
 
 int main() {
     char nama[50], nim[20], kelas[10], ttl[50], alamat[100], hobby[50], no_hp[20];
-
     printf("Nama: ");
-    scanf(" %[^\n]", nama); // membaca kalimat sampai enter
+    scanf(" %[^\n]", nama);
     printf("NIM: ");
     scanf(" %[^\n]", nim);
     printf("Kelas Paralel: ");
@@ -17,7 +16,6 @@ int main() {
     scanf(" %[^\n]", hobby);
     printf("No. HP: ");
     scanf(" %[^\n]", no_hp);
-
     printf("Nama                : %s\n", nama);
     printf("NIM                 : %s\n", nim);
     printf("Kelas Paralel       : %s\n", kelas);
@@ -25,6 +23,5 @@ int main() {
     printf("Alamat              : %s\n", alamat);
     printf("Hobby               : %s\n", hobby);
     printf("No. HP              : %s\n", no_hp);
-
     return 0;
 }
